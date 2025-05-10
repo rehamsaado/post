@@ -26,8 +26,8 @@ class PostWidget extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             const AppAvatarWidget(
-               imageUrl: "assets/images/image_doctor.png",
-             // imageUrl: imageUrl,
+                imageUrl: "assets/images/image_doctor.png",
+              // imageUrl: imageUrl,
             ),
             const SizedBox(
               width: 8,
@@ -69,7 +69,8 @@ class PostWidget extends StatelessWidget {
         ),
        AppTextWidget(text: caption),
        // Image.asset("assets/images/image_doctor.png"),
-        AppImageWidget(path:"assets/images/image_doctor.png",height: 200,)
+        AppImageWidget(path: imageUrl, height: 200),
+       //  AppImageWidget(path:"assets/images/image_doctor.png",height: 200,)
       ],
     ));
   }

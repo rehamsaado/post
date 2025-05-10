@@ -1,6 +1,9 @@
+import 'package:equatable/equatable.dart';
+
 import '../../../user/domain/user.dart';
 
-class Post {
+class Post extends Equatable {
+   final int id;
   final String caption;
   final String timeAgo;
   final String? imageUrl;
@@ -11,11 +14,25 @@ class Post {
   final User user;
 
   Post(
-      {required this.caption,
+      {
+      required this.id,
+      required this.caption,
       required this.timeAgo,
       this.imageUrl,
       required this.likes,
       required this.comments,
       required this.shares,
       required this.user});
+
+  @override
+  // TODO: implement props
+  List<Object?> get props => [
+        caption,
+        timeAgo,
+        imageUrl,
+        likes,
+        comments,
+        shares,
+        // id,
+      ];
 }

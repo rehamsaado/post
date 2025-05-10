@@ -157,7 +157,7 @@ abstract class FakeData {
       likes: 1202,
       comments: 184,
       shares: 96,
-      user: currentUser,
+      user: currentUser, id: 1,
     ),
     Post(
       caption: 'Please enjoy this placeholder text: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
@@ -166,7 +166,7 @@ abstract class FakeData {
       likes: 683,
       comments: 79,
       shares: 18,
-      user: users[5],
+      user: users[5], id: 2,
     ),
     Post(
       caption: 'This is a very good boi.',
@@ -175,7 +175,7 @@ abstract class FakeData {
       likes: 894,
       comments: 201,
       shares: 27,
-      user: users[4],
+      user: users[4], id: 3,
     ),
     Post(
       caption: 'Adventure 🏔',
@@ -184,7 +184,7 @@ abstract class FakeData {
       likes: 722,
       comments: 183,
       shares: 42,
-      user: users[3],
+      user: users[3], id: 4,
     ),
     Post(
       caption: 'More placeholder text for the soul: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
@@ -193,7 +193,7 @@ abstract class FakeData {
       likes: 482,
       comments: 37,
       shares: 9,
-      user: users[0],
+      user: users[0], id: 5,
     ),
     Post(
       caption: 'A classic.',
@@ -202,7 +202,7 @@ abstract class FakeData {
       likes: 1523,
       shares: 129,
       comments: 301,
-      user: users[9],
+      user: users[9], id: 6,
     )
   ];
 

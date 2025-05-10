@@ -1,6 +1,6 @@
   import 'dart:io';
   import 'package:flutter/material.dart';
-  import 'package:image_picker/image_picker.dart';
+import 'package:image_picker/image_picker.dart';
   import 'package:post/global_widget/App_text_button_widget.dart';
   import 'package:post/global_widget/app-text_field_widget.dart';
   import 'package:post/global_widget/app_avatar_widget.dart';
